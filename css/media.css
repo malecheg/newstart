@@ -1,0 +1,131 @@
+@media (max-width: 1199.98px){
+.blog img{
+  height: 100%;
+}
+}
+@media (max-width: 991.98px){
+    .header-nav__burger{
+        display: block;
+        position: relative;
+        z-index: 102;
+    }
+    .nav-menu{
+        position: fixed;
+        max-width: 100%;
+        height: 100%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #c0301c;
+        z-index: 100;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+    }
+    .nav-menu__link{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .nav-menu__item{
+        margin: 5px;
+    }
+    .header-nav{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: #c0301c;
+        padding: 15px 30px;
+        z-index: 101;
+    }
+    .header__logo{
+        position: relative;
+        z-index: 102;
+    }
+    .services .col-xl-4{
+        margin-bottom: 30px;
+    }
+    .about__text{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .blog .col-xl-7{
+      margin-top: 30px;
+    }
+    .contact .col-xl-3{
+      display: flex !important;
+      justify-content:space-between !important;
+    align-items: flex-start;
+    }
+    .contact-address{
+      width: 33.3%;
+    }
+}
+@media (max-width: 767.98px){
+    .services__container,
+    .works__container,
+    .blog__container,
+    .clients__container,
+    .contact__container,
+    .footer-content{
+        padding: 50px 0 20px;
+    }
+    .subtitle{
+        margin-bottom: 30px;
+    }
+    .about__container
+    .call{
+        padding: 50px 0;
+    }
+    .call__btn{
+      margin-top: 30px;
+    }
+    .contact .col-xl-3{
+      flex-wrap: wrap;
+    }
+    .contact-address{
+      width: 50%;
+      margin:  0 auto 20px;
+    }
+}
+@media (max-width: 575.98px){
+    .header__title{
+        margin-top: 180px;
+        font-size: 40px;
+    }
+    .header__container{
+        padding-bottom: 180px;
+    }
+    .call__text{
+      font-size: 20px;
+    }
+    .call__btn{
+      font-size: 14px;
+    }
+    .blog-header__date{
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+      font-size: 12px;
+    }
+    .blog-header__date span{
+      font-size: 18px;
+    }
+    .blog-header__title,
+    .blog-header__subtitle,{
+      font-size: 11px;
+    }
+    .contact-address{
+      width: 100%;
+    }
+    .contact-form__input{
+      width: 100%:
+    }
+    .contact-forn__footer{
+      flex-direction: column;
+    }
+    .contact-form__text{
+      margin: 15px 0 0;
+    }
+}
