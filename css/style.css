@@ -736,3 +736,16 @@ body{
 .row{
     margin: 0;
 }
+  .h11{
+    color: tomato;
+  }
+  #out{
+    margin-top: 30px;
+  }
+  #reset{
+    display:none;
+    margin-top: 500px;
+  }
+  .gamee{
+      text-align: center;
+  }
